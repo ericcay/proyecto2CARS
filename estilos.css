@@ -1,1 +1,25 @@
 
+img{
+    border-radius: 20px;
+    width: 1312px;
+    height: 457px;
+    top: 455px;
+    left: 100px;
+    
+}
+.container{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.logo img{
+    width: 106px;
+    height: 37px;
+}
+.menú{
+
+}
+
+
+
