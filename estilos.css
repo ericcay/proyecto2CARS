@@ -1,25 +1,52 @@
-
-img{
-    border-radius: 20px;
-    width: 1312px;
-    height: 457px;
-    top: 455px;
-    left: 100px;
-    
-}
 .container{
-    width: 1300px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 1512px;
+
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
     }
 
-.logo img{
-    width: 106px;
-    height: 37px;
-}
-.menú{
-
+header img{
+    height: 40px;
 }
 
+header p{
+    margin: 0 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
 
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
 
+.pheader{
+    position: absolute;
+    width: 86px;
+    height: 16px;
+    left: 104px;
+    top: 196px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height:16px ;
+    text-transform: uppercase;
+}
